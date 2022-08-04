@@ -88,3 +88,45 @@ a {
 
 /* Body */
 
+/* .body :nth-child(even) {
+    background-color: #efe7eb;
+} */
+
+.infos {
+    padding: 0 200px;
+}
+
+.infos .info-head {
+    padding: 60px;
+    font-size: 32px;
+    color: #410875;
+    font-weight: 800;
+    text-align: center;
+}
+
+.infos .info-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    padding-bottom: 150px;
+}
+
+.infos .info-body div {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.infos .info-body .info-squares {
+    height: 150px;
+    border: 5px solid #ff45bb;
+    border-radius: 15px;
+}
+
+.infos .info-body .info-subtext {
+    text-align: center;
+    color: #3f3f3f;
+}
