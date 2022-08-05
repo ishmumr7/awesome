@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100&display=swap');
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -90,6 +90,7 @@ a {
 /* Body */
 
         /* Section 1: Infos */
+
 .infos {
     padding: 0 200px;
 }
@@ -120,7 +121,7 @@ a {
 
 .infos .info-body .info-squares {
     height: 150px;
-    border: 5px solid #ff45bb;
+    border: 5px solid #a455ff;
     border-radius: 15px;
 }
 
@@ -130,8 +131,9 @@ a {
 }
 
         /* Section 2: Quote */
+
 .quote {
-    background-color: #efe7eb;
+    background-color: #deceee;
     padding: 100px 370px;
     color: #1f2937;
 }
@@ -147,4 +149,51 @@ a {
     font-size: 22px;
     font-weight: bold;
     text-align: right;
+}
+
+
+        /* Section 3: Call to action */
+
+.signup-section {
+    padding: 80px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-section .container {
+    background-color: #0080ff;
+    color: white;
+    padding: 50px 100px;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.signup-section .content {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.signup-section .content .call-to-action {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.signup-section .content .sub-text {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.signup-section .container .sign-up-2 {
+    background-color: #0080ff;
+    color: white;
+    border: 3px solid white;
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 10px;
 }
